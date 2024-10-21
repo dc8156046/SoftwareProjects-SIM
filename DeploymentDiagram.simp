@@ -2,7 +2,7 @@
 <sim-project version="14.10" multi-file="no" uid="simp33cff3cd11b74fa1a5b1042d347d96ec" creation-date="10/21/2024 11:20:55">
   <meta>
     <name>Deployment Diagram and ERD</name>
-    <authors>Dan Chen</authors>
+    <authors>guihua li</authors>
     <description />
   </meta>
   <counters models="1">
@@ -85,7 +85,18 @@
   </counters>
   <alias-groups />
   <management uid="md-4ea147660f224e4f98aa91cf0fe363d9" name="" task-id-sequence="0">
+    <working-schedule uid="ws-e5fd091c0fe44426aff852c5ec8f1aa1" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
     <persons>
+      <person id="">
+        <first-name>guihua</first-name>
+        <last-name>li</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-8e1a110c6ad9402fb7f762c482f55461" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
       <person id="">
         <first-name>guihua</first-name>
         <last-name>li</last-name>
@@ -107,6 +118,7 @@
   <types default="UML">
     <type-sets>
       <type-set file="PostgreSQL.xml" />
+      <type-set file="UmlTypes.xml" />
     </type-sets>
     <custom-types>
       <parameters />
@@ -131,7 +143,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-deployment" id="p4fb37684adef4be28b122045d036bfb0_333531930" name="DeploymentDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-550,-362" zoom="0.6">
+      <diagram type="uml-deployment" id="p4fb37684adef4be28b122045d036bfb0_333531930" name="DeploymentDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-495,-505" zoom="0.6">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -148,107 +160,8 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="a70fe1ec28c64fbbbbc795782673295a" cid="AF010" type="artifact" name="user.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:58:52">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="a70fe1ec28c64fbbbbc795782673295a_artifact_c" type="artifact" creation-date="10/21/2024 11:58:52" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="386ca304f5d0415f9b1f35ea77f7871a" cid="CPT004" type="component" name="Asynchronous Server Gateway Interface (ASGI)" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:27:08">
-            <stereotypes>
-              <stereotype name="component" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="386ca304f5d0415f9b1f35ea77f7871a_component_c" type="component" creation-date="10/21/2024 11:27:08" ref="" />
-            </stereotype-instances>
-            <component />
-          </item>
-          <item id="f1a4cd61ca46422e9c940dc7de1ce325" cid="AF006" type="artifact" name="Task Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:52:34">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="f1a4cd61ca46422e9c940dc7de1ce325_artifact_c" type="artifact" creation-date="10/21/2024 11:52:34" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="4e7796a9ebeb4ee4be6f22565d4d0186" cid="NOD004" type="node" name="Client's Computer" creator="" creation-date="10/21/2024 11:23:29">
-            <owned-items />
-          </item>
-          <item id="e0da7ceabadc46c3bfd14c603fb425e2" cid="AF016" type="artifact" name="Project" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:07">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="e0da7ceabadc46c3bfd14c603fb425e2_artifact_c" type="artifact" creation-date="10/21/2024 12:04:07" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="34b8aa48c07e4db88ad9fa74741d7fce" cid="GNR007" type="generalization" name="SQL Connection" creator="" creation-date="10/21/2024 12:08:21" from="201c3bd1b1a5402c81b154b147683e82" to="ee13251fc18346b4bb07a85b48343668" visibility="package" />
-          <item id="eb3f300d76d94e26b4baf93e4f44484c" cid="AF003" type="artifact" name="FastAPI" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:33:25">
-            <artifact filename="" />
-          </item>
-          <item id="795b6b5f40304ec9a0ccd7dbd9262d0c" cid="AF011" type="artifact" name="project.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:59:38">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="795b6b5f40304ec9a0ccd7dbd9262d0c_artifact_c" type="artifact" creation-date="10/21/2024 11:59:38" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="732e7e3569bd4b67afeb0e6ad06945d0" cid="AF012" type="artifact" name="task.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:00:08">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="732e7e3569bd4b67afeb0e6ad06945d0_artifact_c" type="artifact" creation-date="10/21/2024 12:00:08" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="e3e6b947031c4d658c9f0911988955df" cid="AF017" type="artifact" name="Task" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:37">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="e3e6b947031c4d658c9f0911988955df_artifact_c" type="artifact" creation-date="10/21/2024 12:04:37" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="3a0fe01d286f4b6fac98cd87bfa8c2d9" cid="AF009" type="artifact" name="Report" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:56:02">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="3a0fe01d286f4b6fac98cd87bfa8c2d9_artifact_c" type="artifact" creation-date="10/21/2024 11:56:02" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="d7b61810c0aa4cac9ba544bda65ba33b" cid="AF021" type="artifact" name="Profile" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:34:07">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="d7b61810c0aa4cac9ba544bda65ba33b_artifact_c" type="artifact" creation-date="10/21/2024 12:34:07" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="1c0b922ab1854ced970e768edea87649" cid="NOD002" type="node" name="React Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:44">
-            <owned-items />
-          </item>
-          <item id="032ce372aa8940fa964ed0c948c95782" cid="CPT002" type="component" name="Web Browser" owner="4e7796a9ebeb4ee4be6f22565d4d0186" creator="" creation-date="10/21/2024 11:24:41">
-            <stereotypes>
-              <stereotype name="component" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="032ce372aa8940fa964ed0c948c95782_component_c" type="component" creation-date="10/21/2024 11:24:41" ref="" />
-            </stereotype-instances>
-            <component />
-          </item>
-          <item id="8be3b60cc0624c9e99f9ac655d93225b" cid="CPT003" type="component" name="JavaScript V8 Engine" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:26:24">
+          <item id="9dcd2c56bee14f1eb349c14f365a9773" cid="GNR005" type="generalization" name="request API" creator="" creation-date="10/21/2024 12:07:25" from="1c0b922ab1854ced970e768edea87649" to="201c3bd1b1a5402c81b154b147683e82" visibility="package" />
+          <item id="8be3b60cc0624c9e99f9ac655d93225b" cid="CPT003" type="component" name="JavaScript V8 Engine" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:26:24" visibility="undefined">
             <stereotypes>
               <stereotype name="component" />
             </stereotypes>
@@ -257,47 +170,28 @@
             </stereotype-instances>
             <component />
           </item>
-          <item id="59ffa267fecb439e83cf8c0fa7b09664" cid="AF014" type="artifact" name="report.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:01:28">
+          <item id="e0da7ceabadc46c3bfd14c603fb425e2" cid="AF016" type="artifact" name="Project" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:07" visibility="undefined">
             <stereotypes>
               <stereotype name="artifact" />
             </stereotypes>
             <stereotype-instances>
-              <stereotype id="59ffa267fecb439e83cf8c0fa7b09664_artifact_c" type="artifact" creation-date="10/21/2024 12:01:28" ref="" />
+              <stereotype id="e0da7ceabadc46c3bfd14c603fb425e2_artifact_c" type="artifact" creation-date="10/21/2024 12:04:07" ref="" />
             </stereotype-instances>
             <artifact filename="" />
           </item>
-          <item id="978f5eb6752a4569a98d61be705f680c" cid="AF008" type="artifact" name="User Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:55:25">
+          <item id="a70fe1ec28c64fbbbbc795782673295a" cid="AF010" type="artifact" name="user.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:58:52" visibility="undefined">
             <stereotypes>
               <stereotype name="artifact" />
             </stereotypes>
             <stereotype-instances>
-              <stereotype id="978f5eb6752a4569a98d61be705f680c_artifact_c" type="artifact" creation-date="10/21/2024 11:55:25" ref="" />
+              <stereotype id="a70fe1ec28c64fbbbbc795782673295a_artifact_c" type="artifact" creation-date="10/21/2024 11:58:52" ref="" />
             </stereotype-instances>
             <artifact filename="" />
           </item>
-          <item id="ded2c323998b4fdb920c817b938e119c" cid="AF007" type="artifact" name="Notification" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:53:06">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="ded2c323998b4fdb920c817b938e119c_artifact_c" type="artifact" creation-date="10/21/2024 11:53:06" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="ee13251fc18346b4bb07a85b48343668" cid="NOD003" type="node" name="Database Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:53">
+          <item id="72a44b3d8b4a44eda6d837d727f7e8f9" cid="NOD005" type="node" name="Server" creator="" creation-date="10/21/2024 11:54:03" visibility="undefined">
             <owned-items />
           </item>
-          <item id="4615b646ea1a4d979af174c016134214" cid="AF004" type="artifact" name="User Authentication" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:50:39">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="4615b646ea1a4d979af174c016134214_artifact_c" type="artifact" creation-date="10/21/2024 11:50:39" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="9dcd2c56bee14f1eb349c14f365a9773" cid="GNR005" type="generalization" name="request API" creator="" creation-date="10/21/2024 12:07:25" from="1c0b922ab1854ced970e768edea87649" to="201c3bd1b1a5402c81b154b147683e82" visibility="package" />
-          <item id="1fdcb92a4d2044fb98cd5a9babbae9c0" cid="AF019" type="artifact" name="Notification" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:05:32">
+          <item id="1fdcb92a4d2044fb98cd5a9babbae9c0" cid="AF019" type="artifact" name="Notification" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:05:32" visibility="undefined">
             <stereotypes>
               <stereotype name="artifact" />
             </stereotypes>
@@ -306,50 +200,7 @@
             </stereotype-instances>
             <artifact filename="" />
           </item>
-          <item id="41e3a30aaf8941b28bc8be9eb04c9e11" cid="GNR003" type="generalization" name="request" creator="" creation-date="10/21/2024 11:58:15" from="4e7796a9ebeb4ee4be6f22565d4d0186" to="72a44b3d8b4a44eda6d837d727f7e8f9" visibility="package" />
-          <item id="717b43e9c8e247d9b8fef9b2ea2e84f6" cid="AF005" type="artifact" name="Project Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:51:56">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="717b43e9c8e247d9b8fef9b2ea2e84f6_artifact_c" type="artifact" creation-date="10/21/2024 11:51:56" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="201c3bd1b1a5402c81b154b147683e82" cid="NOD001" type="node" name="Python FastAPI Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:39">
-            <owned-items />
-          </item>
-          <item id="5ac02886ded842a8a61203b3f96c8263" cid="AF018" type="artifact" name="Role" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:53">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="5ac02886ded842a8a61203b3f96c8263_artifact_c" type="artifact" creation-date="10/21/2024 12:04:53" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="7fc63e2e5db44798a4645c3a77e66487" cid="AF013" type="artifact" name="notification.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:01:07">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="7fc63e2e5db44798a4645c3a77e66487_artifact_c" type="artifact" creation-date="10/21/2024 12:01:07" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="72a44b3d8b4a44eda6d837d727f7e8f9" cid="NOD005" type="node" name="Server" creator="" creation-date="10/21/2024 11:54:03">
-            <owned-items />
-          </item>
-          <item id="d485a1041ca64177a3ba23dbab7d228f" cid="AF020" type="artifact" name="profile.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:33:23">
-            <stereotypes>
-              <stereotype name="artifact" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="d485a1041ca64177a3ba23dbab7d228f_artifact_c" type="artifact" creation-date="10/21/2024 12:33:23" ref="" />
-            </stereotype-instances>
-            <artifact filename="" />
-          </item>
-          <item id="3859d8a2a9294a849a7210e6a812c100" cid="AF015" type="artifact" name="User" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:03:22">
+          <item id="3859d8a2a9294a849a7210e6a812c100" cid="AF015" type="artifact" name="User" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:03:22" visibility="undefined">
             <stereotypes>
               <stereotype name="artifact" />
             </stereotypes>
@@ -358,7 +209,82 @@
             </stereotype-instances>
             <artifact filename="" />
           </item>
-          <item id="c4c4ff7e32ef4d00af10c5fc71e9a741" cid="CPT005" type="component" name="PostgresSQL" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 11:30:47">
+          <item id="3a0fe01d286f4b6fac98cd87bfa8c2d9" cid="AF009" type="artifact" name="Report" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:56:02" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="3a0fe01d286f4b6fac98cd87bfa8c2d9_artifact_c" type="artifact" creation-date="10/21/2024 11:56:02" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="717b43e9c8e247d9b8fef9b2ea2e84f6" cid="AF005" type="artifact" name="Project Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:51:56" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="717b43e9c8e247d9b8fef9b2ea2e84f6_artifact_c" type="artifact" creation-date="10/21/2024 11:51:56" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="732e7e3569bd4b67afeb0e6ad06945d0" cid="AF012" type="artifact" name="task.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:00:08" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="732e7e3569bd4b67afeb0e6ad06945d0_artifact_c" type="artifact" creation-date="10/21/2024 12:00:08" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="ded2c323998b4fdb920c817b938e119c" cid="AF007" type="artifact" name="Notification" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:53:06" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="ded2c323998b4fdb920c817b938e119c_artifact_c" type="artifact" creation-date="10/21/2024 11:53:06" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="d485a1041ca64177a3ba23dbab7d228f" cid="AF020" type="artifact" name="profile.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:33:23" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="d485a1041ca64177a3ba23dbab7d228f_artifact_c" type="artifact" creation-date="10/21/2024 12:33:23" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="032ce372aa8940fa964ed0c948c95782" cid="CPT002" type="component" name="Web Browser" owner="4e7796a9ebeb4ee4be6f22565d4d0186" creator="" creation-date="10/21/2024 11:24:41" visibility="undefined">
+            <stereotypes>
+              <stereotype name="component" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="032ce372aa8940fa964ed0c948c95782_component_c" type="component" creation-date="10/21/2024 11:24:41" ref="" />
+            </stereotype-instances>
+            <component />
+          </item>
+          <item id="5ac02886ded842a8a61203b3f96c8263" cid="AF018" type="artifact" name="Role" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:53" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="5ac02886ded842a8a61203b3f96c8263_artifact_c" type="artifact" creation-date="10/21/2024 12:04:53" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="f1a4cd61ca46422e9c940dc7de1ce325" cid="AF006" type="artifact" name="Task Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:52:34" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="f1a4cd61ca46422e9c940dc7de1ce325_artifact_c" type="artifact" creation-date="10/21/2024 11:52:34" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="eb3f300d76d94e26b4baf93e4f44484c" cid="AF003" type="artifact" name="FastAPI" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:33:25" visibility="undefined">
+            <artifact filename="" />
+          </item>
+          <item id="c4c4ff7e32ef4d00af10c5fc71e9a741" cid="CPT005" type="component" name="PostgresSQL" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 11:30:47" visibility="undefined">
             <stereotypes>
               <stereotype name="component" />
             </stereotypes>
@@ -366,6 +292,92 @@
               <stereotype id="c4c4ff7e32ef4d00af10c5fc71e9a741_component_c" type="component" creation-date="10/21/2024 11:30:47" ref="" />
             </stereotype-instances>
             <component />
+          </item>
+          <item id="1c0b922ab1854ced970e768edea87649" cid="NOD002" type="node" name="React Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:44" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="386ca304f5d0415f9b1f35ea77f7871a" cid="CPT004" type="component" name="Asynchronous Server Gateway Interface (ASGI)" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:27:08" visibility="undefined">
+            <stereotypes>
+              <stereotype name="component" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="386ca304f5d0415f9b1f35ea77f7871a_component_c" type="component" creation-date="10/21/2024 11:27:08" ref="" />
+            </stereotype-instances>
+            <component />
+          </item>
+          <item id="4615b646ea1a4d979af174c016134214" cid="AF004" type="artifact" name="User Authentication" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:50:39" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4615b646ea1a4d979af174c016134214_artifact_c" type="artifact" creation-date="10/21/2024 11:50:39" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="4e7796a9ebeb4ee4be6f22565d4d0186" cid="NOD004" type="node" name="Client's Computer" creator="" creation-date="10/21/2024 11:23:29" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="201c3bd1b1a5402c81b154b147683e82" cid="NOD001" type="node" name="Python FastAPI Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:39" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="d7b61810c0aa4cac9ba544bda65ba33b" cid="AF021" type="artifact" name="Profile" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:34:07" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="d7b61810c0aa4cac9ba544bda65ba33b_artifact_c" type="artifact" creation-date="10/21/2024 12:34:07" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="795b6b5f40304ec9a0ccd7dbd9262d0c" cid="AF011" type="artifact" name="project.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 11:59:38" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="795b6b5f40304ec9a0ccd7dbd9262d0c_artifact_c" type="artifact" creation-date="10/21/2024 11:59:38" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="34b8aa48c07e4db88ad9fa74741d7fce" cid="GNR007" type="generalization" name="SQL Connection" creator="" creation-date="10/21/2024 12:08:21" from="201c3bd1b1a5402c81b154b147683e82" to="ee13251fc18346b4bb07a85b48343668" visibility="package" />
+          <item id="978f5eb6752a4569a98d61be705f680c" cid="AF008" type="artifact" name="User Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:55:25" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="978f5eb6752a4569a98d61be705f680c_artifact_c" type="artifact" creation-date="10/21/2024 11:55:25" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="7fc63e2e5db44798a4645c3a77e66487" cid="AF013" type="artifact" name="notification.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:01:07" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="7fc63e2e5db44798a4645c3a77e66487_artifact_c" type="artifact" creation-date="10/21/2024 12:01:07" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="ee13251fc18346b4bb07a85b48343668" cid="NOD003" type="node" name="Database Server" owner="72a44b3d8b4a44eda6d837d727f7e8f9" creator="" creation-date="10/21/2024 11:21:53" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="59ffa267fecb439e83cf8c0fa7b09664" cid="AF014" type="artifact" name="report.js" owner="1c0b922ab1854ced970e768edea87649" creator="" creation-date="10/21/2024 12:01:28" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="59ffa267fecb439e83cf8c0fa7b09664_artifact_c" type="artifact" creation-date="10/21/2024 12:01:28" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
+          </item>
+          <item id="41e3a30aaf8941b28bc8be9eb04c9e11" cid="GNR003" type="generalization" name="request" creator="" creation-date="10/21/2024 11:58:15" from="4e7796a9ebeb4ee4be6f22565d4d0186" to="72a44b3d8b4a44eda6d837d727f7e8f9" visibility="package" />
+          <item id="e3e6b947031c4d658c9f0911988955df" cid="AF017" type="artifact" name="Task" owner="ee13251fc18346b4bb07a85b48343668" creator="" creation-date="10/21/2024 12:04:37" visibility="undefined">
+            <stereotypes>
+              <stereotype name="artifact" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="e3e6b947031c4d658c9f0911988955df_artifact_c" type="artifact" creation-date="10/21/2024 12:04:37" ref="" />
+            </stereotype-instances>
+            <artifact filename="" />
           </item>
         </abstract-items>
         <layer id="f8da8bca2c574095af4a0831fdc64185" name="Default" visible="true" enabled="true" locked="false">
@@ -497,7 +509,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="entity-relationship" id="p49b6a0e89cda4b20a9a469f2b5c025db_896565388" name="EntityRelationshipDiagram1" order-index="2" overview-order-index="0" uid="" auto-routed-paths="false" default-line-style="default" view-location="-540,-283" zoom="0.5">
+      <diagram type="entity-relationship" id="p49b6a0e89cda4b20a9a469f2b5c025db_896565388" name="EntityRelationshipDiagram1" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-356,-552" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -514,116 +526,6 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="16d92d2a467e4c2eab373fb2f9f1b694" cid="REL012" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 14:06:31" from="343e8ce3d241436ca2f5518bc3793ece" to="d3b5e7a524b742fba33ef3f7c91ec400">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="93783fdaf88d46f181f78d3c1a56f838" cid="ENT001" type="erd-entity" name="User" creator="" creation-date="10/21/2024 12:18:24">
-            <entity description="" />
-            <attributes>
-              <attribute uid="a5ae9122852344fe58ca698ffbc657040972" cid="EA003" name="user_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 12:44:32" />
-              <attribute uid="ad36a107fa1c94a759bd0ed13ab84413819" cid="EA050" name="role_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:53:18" />
-              <attribute uid="a0280debc23cf4efdaebea3aef99f9319702" cid="EA004" name="email" type="varchar" type-id="Postgre.varchar" type-size="100" nullable="false" creation-date="10/21/2024 12:45:14" />
-              <attribute uid="a7ce809bfa9324ddd869711eef450743c869" cid="EA005" name="username" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 12:45:28" />
-              <attribute uid="a6b78656286ba4f4d813647fa4aedf847558" cid="EA006" name="hash_password" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="false" creation-date="10/21/2024 12:46:05" />
-              <attribute uid="a87d35c2031d44b9c98ef55c9b0bd9d13436" cid="EA007" name="is_active" type="bool" type-id="Postgre.bool" nullable="false" creation-date="10/21/2024 12:46:27" />
-              <attribute uid="a3c8296c545eb412a88c9c9e53a439752931" cid="EA008" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 12:46:56" />
-              <attribute uid="a92c8e5f87d714d1d8da975778a2d0eee593" cid="EA009" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 12:47:21" />
-            </attributes>
-          </item>
-          <item id="9c3758784ae3422586809351dc52e76c" cid="ENT006" type="erd-entity" name="Profile" creator="" creation-date="10/21/2024 12:37:10">
-            <entity description="" />
-            <attributes>
-              <attribute uid="a28eeaa260c964ee3994ed66d64f97670719" cid="EA030" name="profile_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 13:19:02" />
-              <attribute uid="a52d90916dcb34e909c07705f9598ce6f340" cid="EA031" name="user_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:19:20" />
-              <attribute uid="a934a82de5d10493c81c11f9f3e8549be882" cid="EA032" name="first_name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 13:21:25" />
-              <attribute uid="a08831efd24b544f68224d93ad0823ec5851" cid="EA033" name="last_name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 13:21:54" />
-              <attribute uid="ae4d6c13a86b141f7a7d042e358d03267219" cid="EA034" name="phone" type="char" type-id="Postgre.char" type-size="10" nullable="false" creation-date="10/21/2024 13:22:31" />
-              <attribute uid="a58afd5abbd104fe5a6856da112d657e6590" cid="EA035" name="avatar" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="false" creation-date="10/21/2024 13:22:52" />
-              <attribute uid="af9bd0bc6666e4dc4814eaa0667fde4a3812" cid="EA036" name="address" type="varchar" type-id="Postgre.varchar" type-size="100" nullable="false" creation-date="10/21/2024 13:25:19" />
-              <attribute uid="a1e5ed17afbc24171a5abfbbfede39580796" cid="EA037" name="city_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:25:41" />
-              <attribute uid="a554abcc8e93a4315a8824cf88f34b315733" cid="EA038" name="province_id" type="int" type-id="Postgre.int" foreign-key="true" nullable="false" creation-date="10/21/2024 13:25:58" />
-              <attribute uid="a8abcb08f8d404fb1941235f03791cbaf217" cid="EA039" name="postal_code" type="char" type-id="Postgre.char" type-size="7" nullable="false" creation-date="10/21/2024 13:26:59" />
-              <attribute uid="a11f02af7cdea4e3eb7c7d591c42948e6232" cid="EA040" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:28:05" />
-              <attribute uid="a534086a295f143eaa6028fe742770741456" cid="EA041" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:28:16" />
-            </attributes>
-          </item>
-          <item id="f918b2ccd4474c068e2db2999f44c80d" cid="REL010" type="erd-relationship" name="has" creator="" creation-date="10/21/2024 14:03:51" from="a54e1b1bbc544efaafefb53d410c9187" to="343e8ce3d241436ca2f5518bc3793ece">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="343e8ce3d241436ca2f5518bc3793ece" cid="ENT009" type="erd-entity" name="City" creator="" creation-date="10/21/2024 14:01:30">
-            <entity description="" />
-            <attributes>
-              <attribute uid="af0d6f53ccdc64420b5f302fbd7603fc2882" cid="EA053" name="city_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 14:02:01" />
-              <attribute uid="aede607087aee4a4196e8addd85227479810" cid="EA054" name="province_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:02:34" />
-              <attribute uid="a4800746eaa02428bbbf7a03f471f9aed733" cid="EA055" name="name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 14:02:45" />
-            </attributes>
-          </item>
-          <item id="6ffa59e3b2e24fc098e89f231e5393ce" cid="REL001" type="erd-relationship" name="assigns" creator="" creation-date="10/21/2024 13:33:30" from="93783fdaf88d46f181f78d3c1a56f838" to="b07fb8c74ff546b9a77a0eab1b9c2563">
-            <erd-relation type="Identifying" multiplicity-from="1..*" multiplicity-to="1">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="06e95cc0605a446db780fdb4649180bc" cid="REL007" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 13:35:58" from="93783fdaf88d46f181f78d3c1a56f838" to="9c3758784ae3422586809351dc52e76c">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="c9a171c8eb2d4a78989a32b72ed28883" cid="REL011" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 14:06:12" from="a54e1b1bbc544efaafefb53d410c9187" to="d3b5e7a524b742fba33ef3f7c91ec400">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="f990f48f2c684c0e981f42202f4787ad" cid="REL013" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 14:08:20" from="a54e1b1bbc544efaafefb53d410c9187" to="9c3758784ae3422586809351dc52e76c">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="cf15a6b3beae4ab8997828239bcc91e1" cid="REL014" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 14:10:09" from="343e8ce3d241436ca2f5518bc3793ece" to="9c3758784ae3422586809351dc52e76c">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="9765ab14af5a41719ace05037279256b" cid="REL004" type="erd-relationship" name="has" creator="" creation-date="10/21/2024 13:34:24" from="93783fdaf88d46f181f78d3c1a56f838" to="d3b5e7a524b742fba33ef3f7c91ec400">
-            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
-              <attribute-pairs>
-                <attribute-pair from-attribute="" to-attribute="" />
-              </attribute-pairs>
-            </erd-relation>
-          </item>
-          <item id="d3b5e7a524b742fba33ef3f7c91ec400" cid="ENT003" type="erd-entity" name="Project" creator="" creation-date="10/21/2024 12:18:52">
-            <entity description="" />
-            <attributes>
-              <attribute uid="a4d28ce716e104b55831567336a5efe6a985" cid="EA012" name="project_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 13:05:43" />
-              <attribute uid="a4847a28880754d4e92ec931fa208f094703" cid="EA019" name="user_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:10:44" />
-              <attribute uid="a73308811a0da4a75bf53dd93c6b77fd191" cid="EA013" name="name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 13:06:10" />
-              <attribute uid="a8d43c4fb4a714cd1ae212691617b9fbc464" cid="EA014" name="address" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="false" creation-date="10/21/2024 13:06:20" />
-              <attribute uid="abcca9f538ed4434796bf616631977a2a707" cid="EA056" name="city_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:04:50" />
-              <attribute uid="acc0cd7675ee346bbb5880945e5b7a0af684" cid="EA057" name="province_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:05:04" />
-              <attribute uid="af0469d02f0b8436da419afeccd6b464f354" cid="EA058" name="postal_code" type="char" type-id="Postgre.char" type-size="7" nullable="false" creation-date="10/21/2024 14:05:20" />
-              <attribute uid="a3a4780d7ce634d1ca35ac01391f46dc4382" cid="EA015" name="budget" type="float4" type-id="Postgre.float4" nullable="false" creation-date="10/21/2024 13:08:54" />
-              <attribute uid="a56b66f332dac4fed8f82c0993b979dd8306" cid="EA018" name="is_active" type="bool" type-id="Postgre.bool" nullable="false" creation-date="10/21/2024 13:10:12" />
-              <attribute uid="ad19f2c865ef44ee4b4c6a53c7422cad3352" cid="EA016" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:09:48" />
-              <attribute uid="ae095021b2d824607a1b660cb6d680a2e312" cid="EA017" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:09:59" />
-            </attributes>
-          </item>
           <item id="b07fb8c74ff546b9a77a0eab1b9c2563" cid="ENT005" type="erd-entity" name="Role" creator="" creation-date="10/21/2024 12:36:57">
             <entity description="" />
             <attributes>
@@ -631,14 +533,21 @@
               <attribute uid="a7ba3aacdc5d745878f56572b8c730bac139" cid="EA002" name="name" type="varchar" type-id="Postgre.varchar" nullable="false" creation-date="10/21/2024 12:42:10" />
             </attributes>
           </item>
-          <item id="73185536f7d54221be705768829eaf12" cid="REL005" type="erd-relationship" name="contains" creator="" creation-date="10/21/2024 13:34:40" from="d3b5e7a524b742fba33ef3f7c91ec400" to="0457469055a2410b83fe1163d0167ff4">
+          <item id="805423b5275b40838cc07e90df45da1d" cid="REL009" type="erd-relationship" creator="" creation-date="10/21/2024 13:39:49" from="93783fdaf88d46f181f78d3c1a56f838" to="6a82156c5ca046548b7414e8ce83f0fc">
             <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
               <attribute-pairs>
                 <attribute-pair from-attribute="" to-attribute="" />
               </attribute-pairs>
             </erd-relation>
           </item>
-          <item id="805423b5275b40838cc07e90df45da1d" cid="REL009" type="erd-relationship" name="sends" creator="" creation-date="10/21/2024 13:39:49" from="93783fdaf88d46f181f78d3c1a56f838" to="6a82156c5ca046548b7414e8ce83f0fc">
+          <item id="c9a171c8eb2d4a78989a32b72ed28883" cid="REL011" type="erd-relationship" creator="" creation-date="10/21/2024 14:06:12" from="a54e1b1bbc544efaafefb53d410c9187" to="d3b5e7a524b742fba33ef3f7c91ec400">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="16d92d2a467e4c2eab373fb2f9f1b694" cid="REL012" type="erd-relationship" creator="" creation-date="10/21/2024 14:06:31" from="343e8ce3d241436ca2f5518bc3793ece" to="d3b5e7a524b742fba33ef3f7c91ec400">
             <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
               <attribute-pairs>
                 <attribute-pair from-attribute="" to-attribute="" />
@@ -660,8 +569,56 @@
               <attribute uid="af4b7a3fdfb1c487bb8b3af92f06e5e3c365" cid="EA044" name="to_user_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:29:53" />
               <attribute uid="a9692f93237b343ea931e9d0ed3604bda784" cid="EA045" name="title" type="varchar" type-id="Postgre.varchar" type-size="100" nullable="false" creation-date="10/21/2024 13:30:07" />
               <attribute uid="a713fb4b74fe3429aa81a6936e4793bed283" cid="EA046" name="content" type="text" type-id="Postgre.text" nullable="false" creation-date="10/21/2024 13:30:38" />
-              <attribute uid="a129e819ae90048568fe9ca1b7b3921a046" cid="EA047" name="priority" type="bool" type-id="Postgre.bool" nullable="false" creation-date="10/21/2024 13:31:22" />
+              <attribute uid="a129e819ae90048568fe9ca1b7b3921a046" cid="EA047" name="priority" type="bool" type-id="Postgre.bool" nullable="false" default-value="true" creation-date="10/21/2024 13:31:22" />
               <attribute uid="a085be96924744c408c3fb1b29de6da61502" cid="EA048" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:31:32" />
+            </attributes>
+          </item>
+          <item id="cf15a6b3beae4ab8997828239bcc91e1" cid="REL014" type="erd-relationship" creator="" creation-date="10/21/2024 14:10:09" from="343e8ce3d241436ca2f5518bc3793ece" to="9c3758784ae3422586809351dc52e76c">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="73185536f7d54221be705768829eaf12" cid="REL005" type="erd-relationship" name="contains" creator="" creation-date="10/21/2024 13:34:40" from="d3b5e7a524b742fba33ef3f7c91ec400" to="0457469055a2410b83fe1163d0167ff4">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="06e95cc0605a446db780fdb4649180bc" cid="REL007" type="erd-relationship" name="is associated with" creator="" creation-date="10/21/2024 13:35:58" from="93783fdaf88d46f181f78d3c1a56f838" to="9c3758784ae3422586809351dc52e76c">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="f918b2ccd4474c068e2db2999f44c80d" cid="REL010" type="erd-relationship" name="has" creator="" creation-date="10/21/2024 14:03:51" from="a54e1b1bbc544efaafefb53d410c9187" to="343e8ce3d241436ca2f5518bc3793ece">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="6ffa59e3b2e24fc098e89f231e5393ce" cid="REL001" type="erd-relationship" name="assigns" creator="" creation-date="10/21/2024 13:33:30" from="93783fdaf88d46f181f78d3c1a56f838" to="b07fb8c74ff546b9a77a0eab1b9c2563">
+            <erd-relation type="Identifying" multiplicity-from="1..*" multiplicity-to="1">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="93783fdaf88d46f181f78d3c1a56f838" cid="ENT001" type="erd-entity" name="User" creator="" creation-date="10/21/2024 12:18:24">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a5ae9122852344fe58ca698ffbc657040972" cid="EA003" name="user_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 12:44:32" />
+              <attribute uid="ad36a107fa1c94a759bd0ed13ab84413819" cid="EA050" name="role_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:53:18" />
+              <attribute uid="a0280debc23cf4efdaebea3aef99f9319702" cid="EA004" name="email" type="varchar" type-id="Postgre.varchar" type-size="100" nullable="false" creation-date="10/21/2024 12:45:14" />
+              <attribute uid="a7ce809bfa9324ddd869711eef450743c869" cid="EA005" name="username" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 12:45:28" />
+              <attribute uid="a6b78656286ba4f4d813647fa4aedf847558" cid="EA006" name="hash_password" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="false" creation-date="10/21/2024 12:46:05" />
+              <attribute uid="a87d35c2031d44b9c98ef55c9b0bd9d13436" cid="EA007" name="is_active" type="bool" type-id="Postgre.bool" nullable="false" creation-date="10/21/2024 12:46:27" />
+              <attribute uid="a3c8296c545eb412a88c9c9e53a439752931" cid="EA008" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 12:46:56" />
+              <attribute uid="a92c8e5f87d714d1d8da975778a2d0eee593" cid="EA009" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 12:47:21" />
             </attributes>
           </item>
           <item id="0457469055a2410b83fe1163d0167ff4" cid="ENT004" type="erd-entity" name="Task" creator="" creation-date="10/21/2024 12:18:58">
@@ -680,6 +637,60 @@
               <attribute uid="a783bd04464c440c98c7b27f105f3985c785" cid="EA029" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:17:00" />
             </attributes>
           </item>
+          <item id="d3b5e7a524b742fba33ef3f7c91ec400" cid="ENT003" type="erd-entity" name="Project" creator="" creation-date="10/21/2024 12:18:52">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a4d28ce716e104b55831567336a5efe6a985" cid="EA012" name="project_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 13:05:43" />
+              <attribute uid="a4847a28880754d4e92ec931fa208f094703" cid="EA019" name="user_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 13:10:44" />
+              <attribute uid="a73308811a0da4a75bf53dd93c6b77fd191" cid="EA013" name="name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 13:06:10" />
+              <attribute uid="a8d43c4fb4a714cd1ae212691617b9fbc464" cid="EA014" name="address" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="false" creation-date="10/21/2024 13:06:20" />
+              <attribute uid="abcca9f538ed4434796bf616631977a2a707" cid="EA056" name="city_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:04:50" />
+              <attribute uid="acc0cd7675ee346bbb5880945e5b7a0af684" cid="EA057" name="province_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:05:04" />
+              <attribute uid="af0469d02f0b8436da419afeccd6b464f354" cid="EA058" name="postal_code" type="char" type-id="Postgre.char" type-size="7" nullable="false" creation-date="10/21/2024 14:05:20" />
+              <attribute uid="a3a4780d7ce634d1ca35ac01391f46dc4382" cid="EA015" name="budget" type="float4" type-id="Postgre.float4" nullable="false" creation-date="10/21/2024 13:08:54" />
+              <attribute uid="a56b66f332dac4fed8f82c0993b979dd8306" cid="EA018" name="is_active" type="bool" type-id="Postgre.bool" nullable="false" default-value="true" creation-date="10/21/2024 13:10:12" />
+              <attribute uid="ad19f2c865ef44ee4b4c6a53c7422cad3352" cid="EA016" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:09:48" />
+              <attribute uid="ae095021b2d824607a1b660cb6d680a2e312" cid="EA017" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:09:59" />
+            </attributes>
+          </item>
+          <item id="9765ab14af5a41719ace05037279256b" cid="REL004" type="erd-relationship" name="has" creator="" creation-date="10/21/2024 13:34:24" from="93783fdaf88d46f181f78d3c1a56f838" to="d3b5e7a524b742fba33ef3f7c91ec400">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="343e8ce3d241436ca2f5518bc3793ece" cid="ENT009" type="erd-entity" name="City" creator="" creation-date="10/21/2024 14:01:30">
+            <entity description="" />
+            <attributes>
+              <attribute uid="af0d6f53ccdc64420b5f302fbd7603fc2882" cid="EA053" name="city_id" type="serial8" type-id="Postgre.serial8" primary-key="true" nullable="false" auto-increment="true" creation-date="10/21/2024 14:02:01" />
+              <attribute uid="aede607087aee4a4196e8addd85227479810" cid="EA054" name="province_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="false" creation-date="10/21/2024 14:02:34" />
+              <attribute uid="a4800746eaa02428bbbf7a03f471f9aed733" cid="EA055" name="name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="false" creation-date="10/21/2024 14:02:45" />
+            </attributes>
+          </item>
+          <item id="f990f48f2c684c0e981f42202f4787ad" cid="REL013" type="erd-relationship" creator="" creation-date="10/21/2024 14:08:20" from="a54e1b1bbc544efaafefb53d410c9187" to="9c3758784ae3422586809351dc52e76c">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="9c3758784ae3422586809351dc52e76c" cid="ENT006" type="erd-entity" name="Profile" creator="" creation-date="10/21/2024 12:37:10">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a52d90916dcb34e909c07705f9598ce6f340" cid="EA031" name="user_id" type="int8" type-id="Postgre.int8" foreign-key="true" primary-key="true" nullable="false" creation-date="10/21/2024 13:19:20" />
+              <attribute uid="a934a82de5d10493c81c11f9f3e8549be882" cid="EA032" name="first_name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="true" creation-date="10/21/2024 13:21:25" />
+              <attribute uid="a08831efd24b544f68224d93ad0823ec5851" cid="EA033" name="last_name" type="varchar" type-id="Postgre.varchar" type-size="50" nullable="true" creation-date="10/21/2024 13:21:54" />
+              <attribute uid="ae4d6c13a86b141f7a7d042e358d03267219" cid="EA034" name="phone" type="char" type-id="Postgre.char" type-size="10" nullable="true" creation-date="10/21/2024 13:22:31" />
+              <attribute uid="a58afd5abbd104fe5a6856da112d657e6590" cid="EA035" name="avatar" type="varchar" type-id="Postgre.varchar" type-size="255" nullable="true" creation-date="10/21/2024 13:22:52" />
+              <attribute uid="af9bd0bc6666e4dc4814eaa0667fde4a3812" cid="EA036" name="address" type="varchar" type-id="Postgre.varchar" type-size="100" nullable="true" creation-date="10/21/2024 13:25:19" />
+              <attribute uid="a1e5ed17afbc24171a5abfbbfede39580796" cid="EA037" name="city_id" type="int8" type-id="Postgre.int8" foreign-key="true" nullable="true" creation-date="10/21/2024 13:25:41" />
+              <attribute uid="a554abcc8e93a4315a8824cf88f34b315733" cid="EA038" name="province_id" type="int" type-id="Postgre.int" foreign-key="true" nullable="true" creation-date="10/21/2024 13:25:58" />
+              <attribute uid="a8abcb08f8d404fb1941235f03791cbaf217" cid="EA039" name="postal_code" type="char" type-id="Postgre.char" type-size="7" nullable="true" creation-date="10/21/2024 13:26:59" />
+              <attribute uid="a11f02af7cdea4e3eb7c7d591c42948e6232" cid="EA040" name="created_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:28:05" />
+              <attribute uid="a534086a295f143eaa6028fe742770741456" cid="EA041" name="updated_at" type="timestamp" type-id="Postgre.timestamp" nullable="false" creation-date="10/21/2024 13:28:16" />
+            </attributes>
+          </item>
           <item id="a54e1b1bbc544efaafefb53d410c9187" cid="ENT008" type="erd-entity" name="Province" creator="" creation-date="10/21/2024 14:00:40">
             <entity description="" />
             <attributes>
@@ -690,11 +701,11 @@
         </abstract-items>
         <layer id="12ec330769d3487a9f52658cd5129a52" name="Default" visible="true" enabled="true" locked="false">
           <item id="93783fdaf88d46f181f78d3c1a56f838" iid="e2555cc3472c4c3abefe03015bdab6e8" creation-date="10/21/2024 12:18:24" order-index="0" type="entity">
-            <layout ax="186" ay="-41" awidth="280" aheight="274" x="186" y="-41" width="280" height="274" />
+            <layout ax="180.5" ay="3" awidth="258" aheight="271" x="180.5" y="3" width="258" height="271" />
             <erd-entity show-nullability="true" />
           </item>
           <item id="d3b5e7a524b742fba33ef3f7c91ec400" iid="8df4a62205ff44b387fe58bb133505fe" creation-date="10/21/2024 12:18:52" order-index="2" type="entity">
-            <layout ax="197" ay="375.75" awidth="258" aheight="340" x="197" y="375.75" width="258" height="340" />
+            <layout ax="208" ay="405" awidth="258" aheight="340" x="208" y="405" width="258" height="340" />
             <erd-entity show-nullability="true" />
           </item>
           <item id="0457469055a2410b83fe1163d0167ff4" iid="ccc9c78106af4af391b9de9a84444fcb" creation-date="10/21/2024 12:18:58" order-index="3" type="entity">
@@ -702,7 +713,7 @@
             <erd-entity show-nullability="true" />
           </item>
           <item id="b07fb8c74ff546b9a77a0eab1b9c2563" iid="7f6709e9314b44e59b396f93c00256ad" creation-date="10/21/2024 12:36:57" order-index="4" type="entity">
-            <layout ax="574" ay="-61.5" awidth="140" aheight="315" x="574" y="-61.5" width="140" height="315" />
+            <layout ax="555" ay="-41" awidth="140" aheight="315" x="555" y="-41" width="140" height="315" />
             <erd-entity show-nullability="true" />
           </item>
           <item id="9c3758784ae3422586809351dc52e76c" iid="e74fef48dd1a467bb33a1e1edaf7c5c3" creation-date="10/21/2024 12:37:10" order-index="5" type="entity">
@@ -710,32 +721,32 @@
             <erd-entity show-nullability="true" />
           </item>
           <item id="6a82156c5ca046548b7414e8ce83f0fc" iid="1b6708706a3849b49989d3206f8a36ed" creation-date="10/21/2024 12:37:28" order-index="6" type="entity">
-            <layout ax="199" ay="-418.5" awidth="217" aheight="274" x="199" y="-418.5" width="217" height="274" />
+            <layout ax="199" ay="-418.5" awidth="266" aheight="274" x="199" y="-418.5" width="217" height="274" />
             <erd-entity show-nullability="true" />
           </item>
           <item id="6ffa59e3b2e24fc098e89f231e5393ce" iid="94c5cf628aba4613bd32a12a244e1aa2" creation-date="10/21/2024 13:33:30" order-index="7" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="466" y1="96" x2="574" y2="96" start-border-pos="0.37460317462682724" end-border-pos="0.875" start-local-pos="157" name-position="-4,16">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="438" y1="138" x2="555" y2="124" start-border-pos="0.37460317462682724" end-border-pos="0.8688608805338541" start-local-pos="157" name-position="-4,16">
               <points>
-                <point x="466" y="96" />
-                <point x="574" y="96" />
+                <point x="438" y="138" />
+                <point x="555" y="124" />
               </points>
             </layout>
             <relation from="93783fdaf88d46f181f78d3c1a56f838" from-iid="e2555cc3472c4c3abefe03015bdab6e8" to="b07fb8c74ff546b9a77a0eab1b9c2563" to-iid="7f6709e9314b44e59b396f93c00256ad" />
           </item>
           <item id="9765ab14af5a41719ace05037279256b" iid="32a053c1d5ba4c4b92beb59632cab43f" creation-date="10/21/2024 13:34:24" order-index="9" type="relation">
-            <layout start-role-position="25,15" end-role-position="49.712498,-33.063553" line-style="oblique" lock-to-fields="false" auto-path="" x1="326" y1="233" x2="326" y2="376" start-border-pos="0.625" end-border-pos="0.125" name-position="36,1">
+            <layout start-role-position="25,15" end-role-position="49.712498,-33.063553" line-style="oblique" lock-to-fields="false" auto-path="" x1="318" y1="274" x2="326" y2="405" start-border-pos="0.6163733134898104" end-border-pos="0.11482226941012597" name-position="36,1">
               <points>
-                <point x="326" y="233" />
-                <point x="326" y="376" />
+                <point x="318" y="274" />
+                <point x="326" y="405" />
               </points>
             </layout>
             <relation from="93783fdaf88d46f181f78d3c1a56f838" from-iid="e2555cc3472c4c3abefe03015bdab6e8" to="d3b5e7a524b742fba33ef3f7c91ec400" to-iid="8df4a62205ff44b387fe58bb133505fe" />
           </item>
           <item id="73185536f7d54221be705768829eaf12" iid="e8786039405940df8dac61cf8058fbe5" creation-date="10/21/2024 13:34:40" order-index="10" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="197" y1="546" x2="96" y2="546" start-border-pos="0.8748161764705882" end-border-pos="0.3751984126984127" name-position="14,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="208" y1="565" x2="96" y2="556" start-border-pos="0.8824344410615809" end-border-pos="0.383222888764881" name-position="14,20">
               <points>
-                <point x="197" y="546" />
-                <point x="96" y="546" />
+                <point x="208" y="565" />
+                <point x="96" y="556" />
               </points>
             </layout>
             <relation from="d3b5e7a524b742fba33ef3f7c91ec400" from-iid="8df4a62205ff44b387fe58bb133505fe" to="0457469055a2410b83fe1163d0167ff4" to-iid="ccc9c78106af4af391b9de9a84444fcb" />
@@ -754,19 +765,19 @@
             <relation from="0457469055a2410b83fe1163d0167ff4" from-iid="ccc9c78106af4af391b9de9a84444fcb" to="0457469055a2410b83fe1163d0167ff4" to-iid="ccc9c78106af4af391b9de9a84444fcb" />
           </item>
           <item id="06e95cc0605a446db780fdb4649180bc" iid="3fb7340f51cb4c208b2f5dc31640b8bb" creation-date="10/21/2024 13:35:58" order-index="12" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="186" y1="104" x2="96" y2="109" start-border-pos="0.8678837170566085" end-border-pos="0.3703470761204459" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="180" y1="130" x2="96" y2="124" start-border-pos="0.8831533171593923" end-border-pos="0.379705844722129" name-position="0,20">
               <points>
-                <point x="186" y="104" />
-                <point x="96" y="109" />
+                <point x="180" y="130" />
+                <point x="96" y="124" />
               </points>
             </layout>
             <relation from="93783fdaf88d46f181f78d3c1a56f838" from-iid="e2555cc3472c4c3abefe03015bdab6e8" to="9c3758784ae3422586809351dc52e76c" to-iid="e74fef48dd1a467bb33a1e1edaf7c5c3" />
           </item>
           <item id="805423b5275b40838cc07e90df45da1d" iid="27f6ef1c249342f7a4af571a474c5134" creation-date="10/21/2024 13:39:49" order-index="13" type="relation">
-            <layout start-role-position="12.271694,33.52003" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="319" y1="-41" x2="315" y2="-144" start-border-pos="0.11917517525809151" end-border-pos="0.6168531778221307" name-position="-35,11">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="317" y1="3" x2="325" y2="-144" start-border-pos="0.1323366682658824" end-border-pos="0.6317937750565379" name-position="0,20">
               <points>
-                <point x="319" y="-41" />
-                <point x="315" y="-144" />
+                <point x="317" y="3" />
+                <point x="325" y="-144" />
               </points>
             </layout>
             <relation from="93783fdaf88d46f181f78d3c1a56f838" from-iid="e2555cc3472c4c3abefe03015bdab6e8" to="6a82156c5ca046548b7414e8ce83f0fc" to-iid="1b6708706a3849b49989d3206f8a36ed" />
@@ -776,42 +787,42 @@
             <erd-entity show-nullability="true" />
           </item>
           <item id="343e8ce3d241436ca2f5518bc3793ece" iid="55c7c7dd531644d9a98b30e9087adca9" creation-date="10/21/2024 14:01:30" order-index="15" type="entity">
-            <layout ax="556" ay="597" awidth="177" aheight="197" x="556" y="597" width="177" height="197" />
+            <layout ax="555" ay="596" awidth="178" aheight="197" x="555" y="596" width="178" height="197" />
             <erd-entity show-nullability="true" />
           </item>
           <item id="f918b2ccd4474c068e2db2999f44c80d" iid="a56e28144f7649539eee73d8cfbd403a" creation-date="10/21/2024 14:03:51" order-index="16" type="relation">
-            <layout start-role-position="24,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="644" y1="502" x2="644" y2="597" start-border-pos="0.625" end-border-pos="0.12429378531073447" name-position="27,5">
+            <layout start-role-position="24,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="644" y1="502" x2="644" y2="596" start-border-pos="0.625" end-border-pos="0.125" name-position="27,5">
               <points>
                 <point x="644" y="502" />
-                <point x="644" y="597" />
+                <point x="644" y="596" />
               </points>
             </layout>
             <relation from="a54e1b1bbc544efaafefb53d410c9187" from-iid="e66f70e03f3c4e1d8a4e9b7ad35e500a" to="343e8ce3d241436ca2f5518bc3793ece" to-iid="55c7c7dd531644d9a98b30e9087adca9" />
           </item>
           <item id="c9a171c8eb2d4a78989a32b72ed28883" iid="0ccefdc530344e1aa969c728470dbe77" creation-date="10/21/2024 14:06:12" order-index="17" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="574" y1="427" x2="455" y2="427" start-border-pos="0.8745860927152318" end-border-pos="0.2875000014901161" end-local-pos="51.25" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="574" y1="461" x2="466" y2="513" start-border-pos="0.8187153292018057" end-border-pos="0.3292728648466222" name-position="0,20">
               <points>
-                <point x="574" y="427" />
-                <point x="455" y="427" />
+                <point x="574" y="461" />
+                <point x="466" y="513" />
               </points>
             </layout>
             <relation from="a54e1b1bbc544efaafefb53d410c9187" from-iid="e66f70e03f3c4e1d8a4e9b7ad35e500a" to="d3b5e7a524b742fba33ef3f7c91ec400" to-iid="8df4a62205ff44b387fe58bb133505fe" />
           </item>
           <item id="16d92d2a467e4c2eab373fb2f9f1b694" iid="f72ba92431b942a4926611ebc8c76cca" creation-date="10/21/2024 14:06:31" order-index="18" type="relation">
-            <layout start-role-position="25,15" end-role-position="24.656214,-15.93909" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="556" y1="669" x2="455" y2="666" start-border-pos="0.908629447221756" end-border-pos="0.4636029452085495" start-local-pos="72" end-local-pos="291" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="555" y1="660" x2="466" y2="625" start-border-pos="0.9194141523487072" end-border-pos="0.411767084458295" name-position="0,20">
               <points>
-                <point x="556" y="669" />
-                <point x="455" y="666" />
+                <point x="555" y="660" />
+                <point x="466" y="625" />
               </points>
             </layout>
             <relation from="343e8ce3d241436ca2f5518bc3793ece" from-iid="55c7c7dd531644d9a98b30e9087adca9" to="d3b5e7a524b742fba33ef3f7c91ec400" to-iid="8df4a62205ff44b387fe58bb133505fe" />
           </item>
           <item id="f990f48f2c684c0e981f42202f4787ad" iid="af5debe07fd34866899eed506fa7337c" creation-date="10/21/2024 14:08:20" order-index="19" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="714" y1="427" x2="-162" y2="116" start-border-pos="0.3754139072847682" end-border-pos="0.8755357571433301" name-position="0,19">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-to-fields="false" auto-path="" x1="714" y1="427" x2="-162" y2="116" start-border-pos="0.3754139072847682" end-border-pos="0.8755357571433301" name-position="0,20">
               <points>
                 <point x="714" y="427" />
                 <point x="980" y="427" />
-                <point x="983" y="947" />
+                <point x="987" y="971" />
                 <point x="-357" y="940" />
                 <point x="-368" y="115" />
                 <point x="-162" y="116" />
@@ -820,13 +831,13 @@
             <relation from="a54e1b1bbc544efaafefb53d410c9187" from-iid="e66f70e03f3c4e1d8a4e9b7ad35e500a" to="9c3758784ae3422586809351dc52e76c" to-iid="e74fef48dd1a467bb33a1e1edaf7c5c3" />
           </item>
           <item id="cf15a6b3beae4ab8997828239bcc91e1" iid="849593314b634265819f8c22060110cf" creation-date="10/21/2024 14:10:09" order-index="20" type="relation">
-            <layout start-role-position="25,15" end-role-position="22.388979,4.9294324" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="648" y1="794" x2="-162" y2="207" start-border-pos="0.6202423612950212" end-border-pos="0.820217914879322" end-local-pos="297" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="22.388979,4.9294324" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="648" y1="793" x2="-162" y2="196" start-border-pos="0.6195827012651423" end-border-pos="0.8268765136599541" end-local-pos="286" name-position="0,20">
               <points>
-                <point x="648" y="794" />
+                <point x="648" y="793" />
                 <point x="650" y="848" />
-                <point x="-284" y="839" />
+                <point x="-253" y="822" />
                 <point x="-286" y="205" />
-                <point x="-162" y="207" />
+                <point x="-162" y="196" />
               </points>
             </layout>
             <relation from="343e8ce3d241436ca2f5518bc3793ece" from-iid="55c7c7dd531644d9a98b30e9087adca9" to="9c3758784ae3422586809351dc52e76c" to-iid="e74fef48dd1a467bb33a1e1edaf7c5c3" />
