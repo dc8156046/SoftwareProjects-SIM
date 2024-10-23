@@ -163,7 +163,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-deployment" id="p4fb37684adef4be28b122045d036bfb0_333531930" name="DeploymentDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-769,-599" zoom="0.6">
+      <diagram type="uml-deployment" id="p4fb37684adef4be28b122045d036bfb0_333531930" name="DeploymentDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-669,-18" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -301,7 +301,7 @@
             </stereotype-instances>
             <artifact filename="" />
           </item>
-          <item id="41e3a30aaf8941b28bc8be9eb04c9e11" cid="GNR003" type="generalization" name="access" creator="" creation-date="10/21/2024 11:58:15" from="4e7796a9ebeb4ee4be6f22565d4d0186" to="72a44b3d8b4a44eda6d837d727f7e8f9" visibility="package" />
+          <item id="41e3a30aaf8941b28bc8be9eb04c9e11" cid="GNR003" type="generalization" name="access via HTTPS" creator="" creation-date="10/21/2024 11:58:15" from="4e7796a9ebeb4ee4be6f22565d4d0186" to="72a44b3d8b4a44eda6d837d727f7e8f9" visibility="package" />
           <item id="717b43e9c8e247d9b8fef9b2ea2e84f6" cid="AF005" type="artifact" name="Project Management" owner="201c3bd1b1a5402c81b154b147683e82" creator="" creation-date="10/21/2024 11:51:56" visibility="undefined">
             <stereotypes>
               <stereotype name="artifact" />
@@ -501,7 +501,7 @@
             <artifact />
           </item>
           <item id="41e3a30aaf8941b28bc8be9eb04c9e11" iid="d73c66ef1705421290fab134df147845" creation-date="10/21/2024 11:58:15" order-index="15" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="248" y1="-296" x2="234" y2="-71" start-border-pos="0.6319624519348145" end-border-pos="0.132187523569579" name-position="-40,13">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="248" y1="-296" x2="234" y2="-71" start-border-pos="0.6319624519348145" end-border-pos="0.132187523569579" name-position="-61,-3">
               <points>
                 <point x="248" y="-296" />
                 <point x="234" y="-71" />
@@ -529,7 +529,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="entity-relationship" id="p49b6a0e89cda4b20a9a469f2b5c025db_896565388" name="EntityRelationshipDiagram1" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-380,132" zoom="0.5">
+      <diagram type="entity-relationship" id="p49b6a0e89cda4b20a9a469f2b5c025db_896565388" name="EntityRelationshipDiagram1" order-index="2" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-380,42" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -814,7 +814,7 @@
             <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-162" y1="434" x2="-122" y2="388" start-border-pos="0.9635036438703537" end-border-pos="0.03875968977808952" start-local-pos="52" end-local-pos="219" name-position="-24,37">
               <points>
                 <point x="-162" y="434" />
-                <point x="-212" y="428.25" />
+                <point x="-212" y="434.25" />
                 <point x="-212" y="338.25" />
                 <point x="-130" y="338.25" />
                 <point x="-122" y="338.25" />
